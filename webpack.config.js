@@ -47,7 +47,7 @@ let config = {
 }
 
 if (currentTask == 'dev') {
-    cssConfig.use.unshift('style-dashloader')
+    cssConfig.use.unshift('style-loader')
     config.output = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'app')
